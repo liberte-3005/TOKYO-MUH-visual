@@ -1,0 +1,70 @@
+.main_content{
+  margin-top: 72px;
+}
+
+.title-tokyo{
+  font-family: 'Kosugi Maru', sans-serif;
+}
+
+
+
+.post-txt{
+  margin-bottom: 16px;
+  padding-top: 16px;
+  text-align: left;  
+  border-bottom: 1px solid rgb(248, 219, 255);
+}
+
+.post-txt .user-txt{
+  color: #00C2BA;
+}
+.post-txt .msg-txt{
+  color: #00C2BA;
+}
+
+.main-msg{
+    text-align: center;
+}
+
+.main-msg-txt{
+  font-family: 'Kosugi Maru', sans-serif;
+  padding-top: 0px;
+  text-align: center;
+}
+
+#bg-img{
+  background:url('/img/night_dots.png');
+}
+
+
+.modal-body .msg-warning{
+  font-size: smaller;
+  color: #ff8fcf;
+}
+
+
+
+@media screen and (max-width: 580px){
+  .none {display:none}
+  }
+
+
+  .date{
+    font-size: xx-small;
+    color: #dcdcdc;
+  }
+
+
+  input:focus::-webkit-input-placeholder {
+    color: transparent;
+  }
+  input:focus::-moz-placeholder {
+    color: transparent;
+  }
+  input:focus::-ms-input-placeholder {
+    color: transparent;
+  }
+  input:focus::placeholder {
+    color: transparent;
+  }
+
